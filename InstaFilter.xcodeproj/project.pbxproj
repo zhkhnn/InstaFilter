@@ -11,6 +11,8 @@
 		B3CAD2222AC6E09B005CF2EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CAD2212AC6E09B005CF2EA /* ContentView.swift */; };
 		B3CAD2242AC6E09D005CF2EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CAD2232AC6E09D005CF2EA /* Assets.xcassets */; };
 		B3CAD2272AC6E09D005CF2EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CAD2262AC6E09D005CF2EA /* Preview Assets.xcassets */; };
+		B3CAD22E2AC6E16B005CF2EA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CAD22D2AC6E16B005CF2EA /* ImagePicker.swift */; };
+		B3CAD2302AC6E177005CF2EA /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CAD22F2AC6E177005CF2EA /* ImageSaver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B3CAD2212AC6E09B005CF2EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3CAD2232AC6E09D005CF2EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3CAD2262AC6E09D005CF2EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3CAD22D2AC6E16B005CF2EA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		B3CAD22F2AC6E177005CF2EA /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				B3CAD2212AC6E09B005CF2EA /* ContentView.swift */,
 				B3CAD2232AC6E09D005CF2EA /* Assets.xcassets */,
 				B3CAD2252AC6E09D005CF2EA /* Preview Content */,
+				B3CAD22D2AC6E16B005CF2EA /* ImagePicker.swift */,
+				B3CAD22F2AC6E177005CF2EA /* ImageSaver.swift */,
 			);
 			path = InstaFilter;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3CAD22E2AC6E16B005CF2EA /* ImagePicker.swift in Sources */,
 				B3CAD2222AC6E09B005CF2EA /* ContentView.swift in Sources */,
 				B3CAD2202AC6E09B005CF2EA /* InstaFilterApp.swift in Sources */,
+				B3CAD2302AC6E177005CF2EA /* ImageSaver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
